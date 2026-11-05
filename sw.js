@@ -1,6 +1,6 @@
 // Service worker di Altrove: tiene l'app disponibile offline.
 // VERSION viene sostituita da build.mjs a ogni build: cambia la cache e fa partire l'aggiornamento.
-const VERSION = "c811bbdb02ce";
+const VERSION = "27e0dc38b845";
 const CACHE = "altrove-" + VERSION;
 const SHELL = [
   "./",
